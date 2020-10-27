@@ -6,7 +6,7 @@ const bot = new Telegraf(process.env.TGTOKEN);
 
 // Some sample commands...
 bot.start((ctx) => {
-    ctx.reply(`Hello ${ctx.message.from.first_name} ${ctx.message.from.last_name}`)
+    ctx.reply(`Hello there ${ctx.message.from.first_name} ${ctx.message.from.last_name}`)
 })
 bot.help((ctx) => {
     ctx.reply("HELP MESSAGE...")

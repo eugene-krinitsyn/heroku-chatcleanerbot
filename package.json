@@ -1,16 +1,16 @@
 {
-  "name": "niles-tg-bot-nodejs",
+  "name": "heroku-chatcleanerbot",
   "version": "1.0.0",
-  "description": "Simple NodeJs telegram bot template",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreafortuna/niles-tg-bot-nodejs"
+    "url": "https://github.com/eugene-krinitsyn/heroku-chatcleanerbot.git"
   },
-  "author": "Andrea Fortuna <andrea@andreafortuna.org> (https://www.andreafortuna.org)",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "telegraf": "^3.34.1"
